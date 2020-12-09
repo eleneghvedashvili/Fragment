@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purple">
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="667dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="48dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="203dp"
+            android:layout_height="98dp"
+            android:text="Dashboard"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="35dp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="97dp"
+            android:layout_height="89dp"
+            android:text="HI"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="129dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

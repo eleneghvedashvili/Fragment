@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="HOME"/>
+
+    <item
+        android:id="@+id/navigation_notification"
+        android:icon="@drawable/ic_baseline_notifications_active_24"
+        android:title="NOTIFICATON"/>
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="DASHBOARD"/>
+
+    <item
+        android:id="@+id/navigation_elene"
+        android:icon="@drawable/ic_baseline_blur_on_24"
+        android:title="ELE"/>
+</menu>
